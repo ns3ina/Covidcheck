@@ -38,7 +38,7 @@ struct RegionList: View {
                 ForEach(dataManager.regionInfos) { regionInfo in
                     RegionInfoSection(regionInfo: regionInfo, width: self.$width)
                 }
-                Text("Created by Julian Schiavo.")
+                Text("Created by Julian Schiavo and released by Anardoni.com.")
                     .foregroundColor(.gray)
                     .font(.footnote)
             }
